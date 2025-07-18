@@ -12,7 +12,26 @@ import RealityKitContent
 
 /// Dashboard style view for HoloXR Health Connect
 struct ContentView: View {
-    @State private var selectedMenu: String = "Home"
+    enum MenuItem: String, CaseIterable, Identifiable {
+        case home = "Home"
+        case sessions = "Sessions"
+        case about = "About"
+        case quit = "Quit"
+
+        var id: String { rawValue }
+    }
+
+    struct Session: Identifiable {
+        let id = UUID()
+        let title: String
+        let subtitle: String
+    }
+
+    @State private var selectedMenu: MenuItem = .home
+    @State private var upcomingSessions: [Session] = [
+        Session(title: "Puvirnituq Evac — June 4", subtitle: "Invited By Airmedic Command"),
+        Session(title: "Team Meeting — June 6", subtitle: "Invited By Louis-Philippe Loiselle Fortier")
+    ]
 
     private let darkBlue = Color(red: 20/255, green: 27/255, blue: 45/255)
 
@@ -56,10 +75,9 @@ struct ContentView: View {
             }
             .padding(.bottom, 16)
 
-            sidebarButton(title: "Home")
-            sidebarButton(title: "Sessions")
-            sidebarButton(title: "About")
-            sidebarButton(title: "Quit")
+            ForEach(MenuItem.allCases) { item in
+                sidebarButton(item: item)
+            }
 
             Spacer()
         }
@@ -69,17 +87,17 @@ struct ContentView: View {
         .clipShape(RoundedRectangle(cornerRadius: 20))
     }
 
-    private func sidebarButton(title: String) -> some View {
-        Button(action: { selectedMenu = title }) {
-            Text(title)
+    private func sidebarButton(item: MenuItem) -> some View {
+        Button(action: { selectedMenu = item }) {
+            Text(item.rawValue)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
-                .foregroundColor(selectedMenu == title ? darkBlue : .white)
-                .background(selectedMenu == title ? Color.white : Color.clear)
+                .foregroundColor(selectedMenu == item ? darkBlue : .white)
+                .background(selectedMenu == item ? Color.white : Color.clear)
                 .clipShape(RoundedRectangle(cornerRadius: 12))
                 .overlay(
                     RoundedRectangle(cornerRadius: 12)
-                        .stroke(selectedMenu == title ? Color.orange : Color.clear, lineWidth: 2)
+                        .stroke(selectedMenu == item ? Color.orange : Color.clear, lineWidth: 2)
                 )
         }
     }
@@ -101,21 +119,22 @@ struct ContentView: View {
                 .font(.headline)
                 .foregroundColor(.white)
 
-            sessionCard(title: "Puvirnituq Evac — June 4", subtitle: "Invited By Airmedic Command")
-            sessionCard(title: "Team Meeting — June 6", subtitle: "Invited By Louis-Philippe Loiselle Fortier")
+            ForEach(upcomingSessions) { session in
+                sessionCard(session)
+            }
 
             Spacer()
         }
         .padding()
     }
 
-    private func sessionCard(title: String, subtitle: String) -> some View {
+    private func sessionCard(_ session: Session) -> some View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
-                Text(title)
+                Text(session.title)
                     .font(.headline)
                     .foregroundColor(.white)
-                Text(subtitle)
+                Text(session.subtitle)
                     .font(.subheadline)
                     .foregroundColor(.white.opacity(0.7))
             }
