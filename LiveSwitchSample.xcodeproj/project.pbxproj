@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7638692E2944A300379F9E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3D7638682E2944A300379F9E /* RealityKitContent */; };
+		3D7639482E294E4C00379F9E /* libFMLiveSwitchVpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639442E294E4C00379F9E /* libFMLiveSwitchVpx.a */; };
+		3D7639492E294E4C00379F9E /* libFMLiveSwitchOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639432E294E4C00379F9E /* libFMLiveSwitchOpus.a */; };
+		3D76394A2E294E4C00379F9E /* libFMLiveSwitchCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639422E294E4C00379F9E /* libFMLiveSwitchCocoa.a */; };
+		3D76394B2E294E4C00379F9E /* libFMLiveSwitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639412E294E4C00379F9E /* libFMLiveSwitch.a */; };
+		3D76394C2E294E4C00379F9E /* libFMLiveSwitchYuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639462E294E4C00379F9E /* libFMLiveSwitchYuv.a */; };
+		3D76394D2E294E4C00379F9E /* libFMLiveSwitchXirSys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639452E294E4C00379F9E /* libFMLiveSwitchXirSys.a */; };
+		3D76394E2E294E4C00379F9E /* libFMLiveSwitchVpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639442E294E4C00379F9E /* libFMLiveSwitchVpx.a */; };
+		3D76394F2E294E4C00379F9E /* libFMLiveSwitchOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639432E294E4C00379F9E /* libFMLiveSwitchOpus.a */; };
+		3D7639502E294E4C00379F9E /* libFMLiveSwitchCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639422E294E4C00379F9E /* libFMLiveSwitchCocoa.a */; };
+		3D7639512E294E4C00379F9E /* libFMLiveSwitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639412E294E4C00379F9E /* libFMLiveSwitch.a */; };
+		3D7639522E294E4C00379F9E /* libFMLiveSwitchYuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639462E294E4C00379F9E /* libFMLiveSwitchYuv.a */; };
+		3D7639532E294E4C00379F9E /* libFMLiveSwitchXirSys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639452E294E4C00379F9E /* libFMLiveSwitchXirSys.a */; };
+		3D7639612E294EF000379F9E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639602E294EF000379F9E /* AudioToolbox.framework */; };
+		3D7639632E294EFE00379F9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639622E294EFE00379F9E /* AVFoundation.framework */; };
+		3D7639652E294F0700379F9E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639642E294F0700379F9E /* CoreAudio.framework */; };
+		3D7639672E294F0D00379F9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639662E294F0D00379F9E /* CoreGraphics.framework */; };
+		3D7639692E294F1400379F9E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639682E294F1400379F9E /* CoreMedia.framework */; };
+		3D76396B2E294F1A00379F9E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D76396A2E294F1A00379F9E /* CoreVideo.framework */; };
+		3D76396D2E294F2100379F9E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D76396C2E294F2100379F9E /* CFNetwork.framework */; };
+		3D76396F2E294F3300379F9E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D76396E2E294F3300379F9E /* OpenGLES.framework */; };
+		3D7639712E294F3C00379F9E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639702E294F3C00379F9E /* Security.framework */; };
+		3D7639732E294F4400379F9E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639722E294F4400379F9E /* VideoToolbox.framework */; };
+		3D7639752E294F8D00379F9E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7639742E294F8D00379F9E /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D76387F2E2944A500379F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D76385B2E2944A300379F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7638622E2944A300379F9E;
+			remoteInfo = LiveSwitchSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D7638632E2944A300379F9E /* LiveSwitchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveSwitchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7638672E2944A300379F9E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		3D76387E2E2944A500379F9E /* LiveSwitchSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveSwitchSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7639352E294E4C00379F9E /* FMLiveSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitch.h; sourceTree = "<group>"; };
+		3D7639362E294E4C00379F9E /* FMLiveSwitch.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitch.swift3.h; sourceTree = "<group>"; };
+		3D7639372E294E4C00379F9E /* FMLiveSwitchCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchCocoa.h; sourceTree = "<group>"; };
+		3D7639382E294E4C00379F9E /* FMLiveSwitchCocoa.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchCocoa.swift3.h; sourceTree = "<group>"; };
+		3D7639392E294E4C00379F9E /* FMLiveSwitchOpus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchOpus.h; sourceTree = "<group>"; };
+		3D76393A2E294E4C00379F9E /* FMLiveSwitchOpus.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchOpus.swift3.h; sourceTree = "<group>"; };
+		3D76393B2E294E4C00379F9E /* FMLiveSwitchVpx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchVpx.h; sourceTree = "<group>"; };
+		3D76393C2E294E4C00379F9E /* FMLiveSwitchVpx.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchVpx.swift3.h; sourceTree = "<group>"; };
+		3D76393D2E294E4C00379F9E /* FMLiveSwitchXirSys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchXirSys.h; sourceTree = "<group>"; };
+		3D76393E2E294E4C00379F9E /* FMLiveSwitchXirSys.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchXirSys.swift3.h; sourceTree = "<group>"; };
+		3D76393F2E294E4C00379F9E /* FMLiveSwitchYuv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchYuv.h; sourceTree = "<group>"; };
+		3D7639402E294E4C00379F9E /* FMLiveSwitchYuv.swift3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLiveSwitchYuv.swift3.h; sourceTree = "<group>"; };
+		3D7639412E294E4C00379F9E /* libFMLiveSwitch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitch.a; sourceTree = "<group>"; };
+		3D7639422E294E4C00379F9E /* libFMLiveSwitchCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitchCocoa.a; sourceTree = "<group>"; };
+		3D7639432E294E4C00379F9E /* libFMLiveSwitchOpus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitchOpus.a; sourceTree = "<group>"; };
+		3D7639442E294E4C00379F9E /* libFMLiveSwitchVpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitchVpx.a; sourceTree = "<group>"; };
+		3D7639452E294E4C00379F9E /* libFMLiveSwitchXirSys.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitchXirSys.a; sourceTree = "<group>"; };
+		3D7639462E294E4C00379F9E /* libFMLiveSwitchYuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMLiveSwitchYuv.a; sourceTree = "<group>"; };
+		3D7639602E294EF000379F9E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D7639622E294EFE00379F9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D7639642E294F0700379F9E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3D7639662E294F0D00379F9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D7639682E294F1400379F9E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3D76396A2E294F1A00379F9E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3D76396C2E294F2100379F9E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D76396E2E294F3300379F9E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3D7639702E294F3C00379F9E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D7639722E294F4400379F9E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		3D7639742E294F8D00379F9E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D7638842E2944A500379F9E /* Exceptions for "LiveSwitchSample" folder in "LiveSwitchSample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3D7638622E2944A300379F9E /* LiveSwitchSample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D7638652E2944A300379F9E /* LiveSwitchSample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D7638842E2944A500379F9E /* Exceptions for "LiveSwitchSample" folder in "LiveSwitchSample" target */,
+			);
+			path = LiveSwitchSample;
+			sourceTree = "<group>";
+		};
+		3D7638812E2944A500379F9E /* LiveSwitchSampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiveSwitchSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7638602E2944A300379F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7639752E294F8D00379F9E /* libz.tbd in Frameworks */,
+				3D7639732E294F4400379F9E /* VideoToolbox.framework in Frameworks */,
+				3D7639712E294F3C00379F9E /* Security.framework in Frameworks */,
+				3D76396F2E294F3300379F9E /* OpenGLES.framework in Frameworks */,
+				3D76396D2E294F2100379F9E /* CFNetwork.framework in Frameworks */,
+				3D76396B2E294F1A00379F9E /* CoreVideo.framework in Frameworks */,
+				3D7639692E294F1400379F9E /* CoreMedia.framework in Frameworks */,
+				3D7639672E294F0D00379F9E /* CoreGraphics.framework in Frameworks */,
+				3D7639652E294F0700379F9E /* CoreAudio.framework in Frameworks */,
+				3D7639632E294EFE00379F9E /* AVFoundation.framework in Frameworks */,
+				3D7639612E294EF000379F9E /* AudioToolbox.framework in Frameworks */,
+				3D7639512E294E4C00379F9E /* libFMLiveSwitch.a in Frameworks */,
+				3D7639502E294E4C00379F9E /* libFMLiveSwitchCocoa.a in Frameworks */,
+				3D76394F2E294E4C00379F9E /* libFMLiveSwitchOpus.a in Frameworks */,
+				3D76394E2E294E4C00379F9E /* libFMLiveSwitchVpx.a in Frameworks */,
+				3D7639532E294E4C00379F9E /* libFMLiveSwitchXirSys.a in Frameworks */,
+				3D7639522E294E4C00379F9E /* libFMLiveSwitchYuv.a in Frameworks */,
+				3D7638692E2944A300379F9E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D76387B2E2944A500379F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7639482E294E4C00379F9E /* libFMLiveSwitchVpx.a in Frameworks */,
+				3D7639492E294E4C00379F9E /* libFMLiveSwitchOpus.a in Frameworks */,
+				3D76394A2E294E4C00379F9E /* libFMLiveSwitchCocoa.a in Frameworks */,
+				3D76394B2E294E4C00379F9E /* libFMLiveSwitch.a in Frameworks */,
+				3D76394C2E294E4C00379F9E /* libFMLiveSwitchYuv.a in Frameworks */,
+				3D76394D2E294E4C00379F9E /* libFMLiveSwitchXirSys.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D76385A2E2944A300379F9E = {
+			isa = PBXGroup;
+			children = (
+				3D7638652E2944A300379F9E /* LiveSwitchSample */,
+				3D7638662E2944A300379F9E /* Packages */,
+				3D7638812E2944A500379F9E /* LiveSwitchSampleTests */,
+				3D7639212E294BE200379F9E /* Frameworks */,
+				3D7638642E2944A300379F9E /* Products */,
+				3D7639472E294E4C00379F9E /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7638642E2944A300379F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7638632E2944A300379F9E /* LiveSwitchSample.app */,
+				3D76387E2E2944A500379F9E /* LiveSwitchSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7638662E2944A300379F9E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3D7638672E2944A300379F9E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		3D7639212E294BE200379F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7639742E294F8D00379F9E /* libz.tbd */,
+				3D7639722E294F4400379F9E /* VideoToolbox.framework */,
+				3D7639702E294F3C00379F9E /* Security.framework */,
+				3D76396E2E294F3300379F9E /* OpenGLES.framework */,
+				3D76396C2E294F2100379F9E /* CFNetwork.framework */,
+				3D76396A2E294F1A00379F9E /* CoreVideo.framework */,
+				3D7639682E294F1400379F9E /* CoreMedia.framework */,
+				3D7639662E294F0D00379F9E /* CoreGraphics.framework */,
+				3D7639642E294F0700379F9E /* CoreAudio.framework */,
+				3D7639622E294EFE00379F9E /* AVFoundation.framework */,
+				3D7639602E294EF000379F9E /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D7639472E294E4C00379F9E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				3D7639352E294E4C00379F9E /* FMLiveSwitch.h */,
+				3D7639362E294E4C00379F9E /* FMLiveSwitch.swift3.h */,
+				3D7639372E294E4C00379F9E /* FMLiveSwitchCocoa.h */,
+				3D7639382E294E4C00379F9E /* FMLiveSwitchCocoa.swift3.h */,
+				3D7639392E294E4C00379F9E /* FMLiveSwitchOpus.h */,
+				3D76393A2E294E4C00379F9E /* FMLiveSwitchOpus.swift3.h */,
+				3D76393B2E294E4C00379F9E /* FMLiveSwitchVpx.h */,
+				3D76393C2E294E4C00379F9E /* FMLiveSwitchVpx.swift3.h */,
+				3D76393D2E294E4C00379F9E /* FMLiveSwitchXirSys.h */,
+				3D76393E2E294E4C00379F9E /* FMLiveSwitchXirSys.swift3.h */,
+				3D76393F2E294E4C00379F9E /* FMLiveSwitchYuv.h */,
+				3D7639402E294E4C00379F9E /* FMLiveSwitchYuv.swift3.h */,
+				3D7639412E294E4C00379F9E /* libFMLiveSwitch.a */,
+				3D7639422E294E4C00379F9E /* libFMLiveSwitchCocoa.a */,
+				3D7639432E294E4C00379F9E /* libFMLiveSwitchOpus.a */,
+				3D7639442E294E4C00379F9E /* libFMLiveSwitchVpx.a */,
+				3D7639452E294E4C00379F9E /* libFMLiveSwitchXirSys.a */,
+				3D7639462E294E4C00379F9E /* libFMLiveSwitchYuv.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7638622E2944A300379F9E /* LiveSwitchSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7638852E2944A500379F9E /* Build configuration list for PBXNativeTarget "LiveSwitchSample" */;
+			buildPhases = (
+				3D76385F2E2944A300379F9E /* Sources */,
+				3D7638602E2944A300379F9E /* Frameworks */,
+				3D7638612E2944A300379F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D7638652E2944A300379F9E /* LiveSwitchSample */,
+			);
+			name = LiveSwitchSample;
+			packageProductDependencies = (
+				3D7638682E2944A300379F9E /* RealityKitContent */,
+			);
+			productName = LiveSwitchSample;
+			productReference = 3D7638632E2944A300379F9E /* LiveSwitchSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D76387D2E2944A500379F9E /* LiveSwitchSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D76388A2E2944A500379F9E /* Build configuration list for PBXNativeTarget "LiveSwitchSampleTests" */;
+			buildPhases = (
+				3D76387A2E2944A500379F9E /* Sources */,
+				3D76387B2E2944A500379F9E /* Frameworks */,
+				3D76387C2E2944A500379F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7638802E2944A500379F9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D7638812E2944A500379F9E /* LiveSwitchSampleTests */,
+			);
+			name = LiveSwitchSampleTests;
+			packageProductDependencies = (
+			);
+			productName = LiveSwitchSampleTests;
+			productReference = 3D76387E2E2944A500379F9E /* LiveSwitchSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D76385B2E2944A300379F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3D7638622E2944A300379F9E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3D76387D2E2944A500379F9E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3D7638622E2944A300379F9E;
+					};
+				};
+			};
+			buildConfigurationList = 3D76385E2E2944A300379F9E /* Build configuration list for PBXProject "LiveSwitchSample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D76385A2E2944A300379F9E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D7638642E2944A300379F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7638622E2944A300379F9E /* LiveSwitchSample */,
+				3D76387D2E2944A500379F9E /* LiveSwitchSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7638612E2944A300379F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D76387C2E2944A500379F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D76385F2E2944A300379F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D76387A2E2944A500379F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7638802E2944A500379F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7638622E2944A300379F9E /* LiveSwitchSample */;
+			targetProxy = 3D76387F2E2944A500379F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D7638862E2944A500379F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveSwitchSample/Preview Content\"";
+				DEVELOPMENT_TEAM = LKP8LKJQTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holoray.LiveSwitchSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LiveSwitchSample/LiveSwitchSample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		3D7638872E2944A500379F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveSwitchSample/Preview Content\"";
+				DEVELOPMENT_TEAM = LKP8LKJQTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holoray.LiveSwitchSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LiveSwitchSample/LiveSwitchSample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		3D7638882E2944A500379F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3D7638892E2944A500379F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3D76388B2E2944A500379F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKP8LKJQTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holoray.LiveSwitchSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveSwitchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveSwitchSample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3D76388C2E2944A500379F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKP8LKJQTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holoray.LiveSwitchSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveSwitchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveSwitchSample";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D76385E2E2944A300379F9E /* Build configuration list for PBXProject "LiveSwitchSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7638882E2944A500379F9E /* Debug */,
+				3D7638892E2944A500379F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7638852E2944A500379F9E /* Build configuration list for PBXNativeTarget "LiveSwitchSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7638862E2944A500379F9E /* Debug */,
+				3D7638872E2944A500379F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D76388A2E2944A500379F9E /* Build configuration list for PBXNativeTarget "LiveSwitchSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D76388B2E2944A500379F9E /* Debug */,
+				3D76388C2E2944A500379F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D7638682E2944A300379F9E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3D76385B2E2944A300379F9E /* Project object */;
+}
